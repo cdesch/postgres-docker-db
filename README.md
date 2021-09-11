@@ -12,4 +12,15 @@ Start Detached
 
     docker-compose up -d
 
+## Configuration
 
+DB Connection
+
+    username: postgres
+    password: postgres
+    port:     5432
+    hostname: localhost
+
+## Attributions/Credits
+
+This configuration was originally forked from [khezen/compose-postgres](https://github.com/khezen/compose-postgres)
